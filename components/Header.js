@@ -1,11 +1,10 @@
 import {
-  TrendingUpIcon,
-  CollectionIcon,
   SearchIcon,
-  UserIcon,
-  BadgeCheckIcon,
+  FilmIcon,
+  ShoppingCartIcon,
+  PuzzleIcon,
 } from "@heroicons/react/outline";
-import { HomeIcon } from "@heroicons/react/solid";
+import { HomeIcon, UserGroupIcon } from "@heroicons/react/solid";
 
 import React from "react";
 import Image from "next/image";
@@ -28,8 +27,12 @@ function Header() {
 
       {/*center*/}
       <div className="flex justify-center flex-grow">
-        <div>
+        <div className="flex">
           <HeaderItem Icon={HomeIcon} />
+          <HeaderItem Icon={FilmIcon} />
+          <HeaderItem Icon={ShoppingCartIcon} />
+          <HeaderItem Icon={UserGroupIcon} />
+          <HeaderItem Icon={PuzzleIcon} />
         </div>
       </div>
       {/*right*/}

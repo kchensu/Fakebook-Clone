@@ -1,7 +1,7 @@
 function HeaderItem({ Icon }) {
   return (
     <div>
-      <Icon className="h-5" />
+      <Icon className="h-6" />
     </div>
   );
 }
