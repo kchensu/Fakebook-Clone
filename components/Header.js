@@ -27,8 +27,8 @@ function Header() {
 
       {/*center*/}
       <div className="flex justify-center flex-grow">
-        <div className="flex space-x-3 md:space-x-2">
-          <HeaderItem Icon={HomeIcon} />
+        <div className="flex space-x-4 md:space-x-2 px-2">
+          <HeaderItem Icon={HomeIcon} active />
           <HeaderItem Icon={FilmIcon} />
           <HeaderItem Icon={ShoppingCartIcon} />
           <HeaderItem Icon={UserGroupIcon} />
