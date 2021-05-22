@@ -18,7 +18,7 @@ function Header() {
         <div className="flex ml-2 items-center rounded-full bg-gray-100 p-2">
           <SearchIcon className="h-6 text-gray-500" />
           <input
-            className="flex-shrink flex ml-2 items-center bg-transparent outline-none placeholder-gray-400"
+            className="hidden md:inline-flex flex-shrink flex ml-2 items-center bg-transparent outline-none placeholder-gray-400"
             type="text"
             placeholder="Search Fakebook"
           />
@@ -36,6 +36,10 @@ function Header() {
         </div>
       </div>
       {/*right*/}
+      <div className="flex items-center sm:space-x-2 justify-items-end">
+        {/*profile pic*/}
+        <p className="font-semibold pr-3 whitespace-nowrap">Kevin Chen</p>
+      </div>
     </div>
   );
 }
