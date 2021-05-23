@@ -3,6 +3,10 @@ import {
   FilmIcon,
   ShoppingCartIcon,
   PuzzleIcon,
+  ChatIcon,
+  BellIcon,
+  ChevronDownIcon,
+  PlusIcon,
 } from "@heroicons/react/outline";
 import { HomeIcon, UserGroupIcon } from "@heroicons/react/solid";
 
@@ -39,6 +43,10 @@ function Header() {
       <div className="flex items-center sm:space-x-2 justify-items-end">
         {/*profile pic*/}
         <p className="font-semibold pr-3 whitespace-nowrap">Kevin Chen</p>
+        <PlusIcon className="icon" />
+        <ChatIcon className="icon" />
+        <BellIcon className="icon" />
+        <ChevronDownIcon className="icon" />
       </div>
     </div>
   );
