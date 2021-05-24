@@ -17,6 +17,7 @@ import HeaderItem from "./HeaderItem";
 
 function Header() {
   return (
+    // left
     <div className="sticky top-0 z-50 bg-white flex items-center p-2 lg:px-5 shadow-md">
       <div className="flex items-center">
         <Image src="/facebook.png" width={90} height={50} layout="fixed" />
